@@ -1,0 +1,58 @@
+.hidden {
+  display: none;
+}
+
+body{
+  position: relative;
+  height: 100vh;
+}
+.img {
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+
+}
+
+#clock{
+  position: absolute;
+  top:0%;
+  left: 50%;
+  z-index: 2;
+}
+#login-form{
+  position: absolute;
+  top:10%;
+  left: 20%;
+  z-index: 2;
+}
+#greeting{
+  position: absolute;
+  top:20%;
+  left: 20%;
+  z-index: 2;
+}
+
+#todo-form{
+  position: absolute;
+  top:30%;
+  left: 20%;
+  z-index: 2;
+}
+#todo-list{
+  position: absolute;
+  top:33%;
+  left: 20%;
+  z-index: 2;
+}
+#quote{
+  position: absolute;
+  top:80%;
+  left: 10%;
+  z-index: 2;
+}
+#weather{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 2;
+}
